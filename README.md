@@ -1,6 +1,6 @@
 # Tqrs
 
-This project is inspired by tqdm, the python package/cli utility.
+This project is inspired by [tqdm](https://github.com/tqdm/tqdm.git), the python package/cli utility.
 
 This project is a crate and also a cli tool.
 
