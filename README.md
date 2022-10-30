@@ -1,8 +1,9 @@
 # Tqrs
 
+Tqrs is a fast and simple progress bar for Rust and the CLI. It uses rust traits and wraps all Iterators to display a configurable progress bar.
+
 This project is inspired by [tqdm](https://github.com/tqdm/tqdm.git), the python package/cli utility.
 
-This project is a crate and also a cli tool.
 
 ## Usage - Library
 This library lets you add progress bars to rust Iterators while using them normally.
@@ -32,7 +33,7 @@ fn main() {
 }
 ```
 
-## Usage - Cli
+## Usage - CLI
 
 This is still a work in progress. But here's the usage that's planned
 
