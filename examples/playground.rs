@@ -8,7 +8,13 @@ fn main() {
     let v = vec![1, 2, 3];
     dbg!(&v);
     use tqrs::TqrsIteratorExt;
-    for n in v.iter().tqrs().with_bound().with_delims(('<', '>')).with_bar("*") {
+    for n in v
+        .iter()
+        .tqrs()
+        .with_bound()
+        .with_delims(('<', '>'))
+        .with_bar("*")
+    {
         expensive_calc(n);
     }
     for n in (0..).tqrs() {

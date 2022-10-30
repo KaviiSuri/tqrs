@@ -1,4 +1,4 @@
-use crate::{Tqrs, Unbounded, Bounded};
+use crate::{Bounded, Tqrs, Unbounded};
 
 /// TqrsDisplay is implemented by states of Tqrs that can be printed to screen
 pub trait TqrsDisplay
@@ -30,5 +30,3 @@ impl TqrsDisplay for Bounded {
         );
     }
 }
-
-

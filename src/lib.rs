@@ -20,7 +20,7 @@ pub struct Bounded {
 pub struct Tqrs<Iter, Bound> {
     /// iter is the Iterator that is being wrapped
     iter: Iter,
-    /// i is the number of iterations that have been done 
+    /// i is the number of iterations that have been done
     i: usize,
     /// Bound represents a TypeState, which can be Unbounded and Bounded. These store bound related state
     bound: Bound,
